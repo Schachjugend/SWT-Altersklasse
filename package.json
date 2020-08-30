@@ -1,0 +1,17 @@
+{
+  "name": "SWT-change-country",
+  "description": "Change the Country-field for all players in a Swiss-Chess Tournament (SWT) file",
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": ["chess", "SWT", "swiss-chess"],
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "nomnom": "1.6.x",
+    "swtparser": "1.1.x"
+  },
+  "bin": "./bin/change.js"
+}
